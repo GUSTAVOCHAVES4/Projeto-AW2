@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto AW2 - Restaurante Chavitos</title>
+    <title>Avaliações</title>
 
     <!-- font awesome cdn link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
@@ -136,7 +136,7 @@
         <input type="submit" value="Enviar Avaliação" name="submit" class="link-btn">
     </form>
 
-    <p>Nome do Usuário: <?php echo isset($_COOKIE['user_name']) ? $_COOKIE['user_name'] : ''; ?></p>
+    <p>Avaliação feita por: <?php echo isset($_COOKIE['user_name']) ? $_COOKIE['user_name'] : ''; ?></p>
     <p>Classificação: <?php echo isset($_COOKIE['user_rating']) ? $_COOKIE['user_rating'] : ''; ?></p>
     <p>Avaliação: <?php echo isset($_COOKIE['user_review']) ? $_COOKIE['user_review'] : ''; ?></p>
 
@@ -161,20 +161,20 @@
         <div class="box">
             <i class="fas fa-map-marker-alt"></i>
             <h3>Endereço</h3>
-            <p>Mumbai, India - 4000431</p>
+            <p>Keizergracht, Amsterdã - 22205-330</p>
         </div>
 
         <div class="box">
             <i class="fas fa-clock"></i>
             <h3>Horário de Funcionamento</h3>
-            <p>7h às 22h</p>
+            <p>8h às 22h</p>
         </div>
 
         <div class="box">
             <i class="fas fa-envelope"></i>
             <h3>Email</h3>
-            <p>arroza@gmail.com</p>
-            <p>arroizinho@gmail.com</p>
+            <p>chavitos@gmail.com</p>
+            <p>chavitos2@gmail.com</p>
         </div>
 
     </div>

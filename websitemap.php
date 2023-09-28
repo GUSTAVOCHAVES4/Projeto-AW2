@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto AW2 - Restaurante Chavitos</title>
+    <title>Mapa do Site</title>
 
     <!-- font awesome cdn link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
@@ -30,7 +30,6 @@
                     <li><a href="reviews.php">Avaliações</a></li>
                     <li><a href="reservation.php">Reserva</a></li>
                 </ul>
-                <br>
-                <h4 class="description">Bem-vindo ao Chavitos, um oásis gastronômico onde a natureza encontra a culinária para nutrir corpo e alma. Somos um restaurante dedicado à comida saudável e ao bem-estar. Nossa cozinha é uma celebração de ingredientes frescos, com ênfase em verduras, legumes, peixes e uma variedade de vitaminas, sucos e chás revigorantes. No Chavitos, acreditamos que a comida é a base da saúde e do equilíbrio, e nossa missão é oferecer uma experiência naturalista que vai além do paladar. Junte-se a nós e embarque em uma jornada culinária que acalma os sentidos, revitaliza o corpo e inspira a mente. Namastê.</h4>
+                <h4 class="description">Esse projeto é um restaurante fictício criado por Gustavo Chaves, chamado Chavitos. O restaurante é dedicado à comida saudável e ao bem-estar. A principal ideia do restaurante é a celebração de ingredientes frescos, como: verduras, legumes, peixes, vitaminas, sucos e chás revigorantes. Através desse website é possível ver o cardápio do restaurante, conhecer mais sobre, avaliar a experiência, ler outras avalições e fazer reservas para uma refeição no restaurante.</h4>
 </body>
 </html>

@@ -96,7 +96,7 @@ section{
 }
 
 .home{
-    background: url() no-repeat;
+    background: url(../images/namaste-background.png) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -160,8 +160,8 @@ section{
 }
 
 .services .box-container .box img{
-    margin: 1rem 0;
-    height: 4rem;
+    margin: 7rem 0;
+    height: 12rem;
 }
 
 .services .box-container .box h3{
@@ -173,37 +173,6 @@ section{
 .services .box-container .box p{
     font-size: 1.5rem;
     color:var(--light-color);
-    line-height: 2;
-}
-
-.process .box-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap: 2rem;
-}
-
-.process .box-container .box{
-    background-color: var(--blue);
-    padding: 2rem;
-    border-radius: .5rem;
-    text-align: center;
-    box-shadow: var(--box-shadow);
-}
-
-.process .box-container img{
-    height: 20rem;
-    margin: 1rem 0;;
-}
-
-.process .box-container h3{
-    font-size: 2rem;
-    color: var(--white);
-    margin: 1.5rem 0;
-}
-
-.process .box-container p{
-    font-size: 1.5rem;
-    color: var(--white);
     line-height: 2;
 }
 

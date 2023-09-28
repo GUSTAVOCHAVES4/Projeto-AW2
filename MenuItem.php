@@ -1,5 +1,4 @@
 <?php
-
 class MenuItem {
     private $name;
     private $description;
@@ -9,18 +8,6 @@ class MenuItem {
         $this->name = $name;
         $this->description = $description;
         $this->price = $price;
-    }
-
-    public function getName() {
-        return $this->name;
-    }
-
-    public function getDescription() {
-        return $this->description;
-    }
-
-    public function getPrice() {
-        return $this->price;
     }
 }
 ?>

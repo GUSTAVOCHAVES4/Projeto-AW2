@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto AW2 - Restaurante Chavitos</title>
+    <title>Chavitos</title>
 
     <!-- font awesome cdn link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
@@ -53,8 +53,8 @@
 
         <div class="row min-vh-100 align-items-center">
             <div class="content text-center text-md-left">
-                <h3></h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                <h3>Entre em contato com sua espiritualidade</h3>
+                <p>Namastê é uma saudação que significa "a luz divina em mim saúda a luz divina em você". É essa filosofia que nos inspira a criar uma atmosfera calorosa e acolhedora, onde os sabores se entrelaçam com a espiritualidade.</p>
                 <a href="reservation.php" class="link-btn">Faça sua reserva</a>
             </div>
         </div>
@@ -73,28 +73,28 @@
 
         <div class="box">
             <i class="fas fa-phone"></i>
-            <h3>phone number</h3>
+            <h3>Telefone</h3>
             <p>+123-456-7890</p>
             <p>+111-222-333</p>
         </div>
 
         <div class="box">
             <i class="fas fa-map-marker-alt"></i>
-            <h3>our adress</h3>
-            <p>mumbai, india - 4000431</p>
+            <h3>Endereço</h3>
+            <p>Keizergracht, Amsterdã - 22205-330</p>
         </div>
 
         <div class="box">
             <i class="fas fa-clock"></i>
-            <h3>opening hours</h3>
-            <p>00:07am to 10:00pm</p>
+            <h3>Horário de Funcionamento</h3>
+            <p>8h às 22h</p>
         </div>
 
         <div class="box">
             <i class="fas fa-envelope"></i>
-            <h3>email address</h3>
-            <p>arroza@gmail.com</p>
-            <p>arroizinho@gmail.com</p>
+            <h3>Email</h3>
+            <p>chavitos@gmail.com</p>
+            <p>chavitos2@gmail.com</p>
         </div>
 
     </div>
