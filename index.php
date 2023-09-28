@@ -243,9 +243,30 @@
 
 
 
-
 <!-- contact section starts -->
 
+
+<section class="contact" id="contact">
+    <h1 class="heading">make appointment</h1>
+
+    <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+        <?php
+            if(isset($message)){
+                echo '<p class="message">'.$message.'</p>';
+            }
+        ?>
+        <span>your name:</span>
+        <input type="text" name="name" placeholder="enter your name" class="box">
+        <span>your email:</span>
+        <input type="text" name="email" placeholder="enter your email" class="box">
+        <span>your number:</span>
+        <input type="text" name="number" placeholder="enter your number" class="box">
+        <span>appointment date:</span>
+        <input type="datetime-local" name="date" class="box">
+        <input type="submit" value="make appointment" name="submit" class="link-btn">
+    </form>
+     
+</section>
 
 
 
