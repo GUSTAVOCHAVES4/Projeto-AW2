@@ -1,3 +1,25 @@
+<?php
+
+$conn = mysqli_connect('localhost','root','','reservation_db') or die('connection failed');
+
+if(isset($_POST['submit'])){
+
+    $name = mysqli_real_escape_string($conn, $_POST['name']);
+    $email = mysqli_real_escape_string($conn, $_POST['email']);
+    $number = $_POST['number'];
+    $date = $_POST['date'];
+
+    $insert = mysqli_query($conn, "INSERT INTO `reservation_form`(name, email, number, date)
+    VALUES('$name','$email','$number','$date')") or die('query failed');
+
+    if($insert){
+        $message[] = 'Reserva feita com sucesso!!!';
+    }else{
+        $message[] = 'Falha na reserva';
+    }
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -45,25 +67,50 @@
 
 <!-- header section ends -->
 
-<!-- home section starts -->
+<!-- contact section starts -->
 
-<section class="home" id="home">
- 
-    <div class="container">
+<section class="contact" id="reservation">
+    <h1 class="heading">Faça sua reserva aqui!</h1>
 
-        <div class="row min-vh-100 align-items-center">
-            <div class="content text-center text-md-left">
-                <h3></h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
-                <a href="reservation.php" class="link-btn">Faça sua reserva</a>
-            </div>
-        </div>
+    <?php
+    if(isset($_POST['submit'])){
+        $name = trim($_POST['name']);
+        $email = trim($_POST['email']);
+        $number = trim($_POST['number']);
+        $date = trim($_POST['date']);
 
-    </div>
+        // Verifica se os campos obrigatórios estão preenchidos
+        if(empty($name) || empty($number) || empty($date)){
+        }
 
+        // Verifique o formato do email
+        if(!empty($email) && !filter_var($email, FILTER_VALIDATE_EMAIL)){
+        }
+    }
+?>
+
+    <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+        <?php
+            if(isset($message)){
+                foreach($message as $msg){
+                    echo '<p class="message">'.$msg.'</p>';
+                }
+            }
+        ?>
+        <span>seu nome:</span>
+        <input type="text" name="name" placeholder="Insira seu nome" class="box" required>
+        <span>seu email:</span>
+        <input type="email" name="email" placeholder="Insira seu email" class="box" required>
+        <span>número de pessoas:</span>
+        <input type="number" name="number" placeholder="Quantas pessoas?" class="box" required max="4">
+        <span>data e hora da reserva:</span>
+        <input type="datetime-local" name="date" class="box" required>
+        <input type="submit" value="Reservar" name="submit" class="link-btn">
+    </form>
+     
 </section>
 
-<!-- home section ends -->
+<!-- contact section ends -->
 
 <!-- footer section starts -->
 
@@ -107,6 +154,6 @@
 
 <!-- custom js file link -->
 <script src="js/script.js"></script>
-    
+
 </body>
 </html>

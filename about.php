@@ -45,25 +45,31 @@
 
 <!-- header section ends -->
 
-<!-- home section starts -->
+<!-- about section starts -->
 
-<section class="home" id="home">
- 
+<section class="about" id="about">
     <div class="container">
 
-        <div class="row min-vh-100 align-items-center">
-            <div class="content text-center text-md-left">
-                <h3></h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
-                <a href="reservation.php" class="link-btn">Faça sua reserva</a>
+        <div class="row align-items-center">
+
+            <div class="col-md-6 image">
+                <img src="images/konan.jpg" class="w-100 mb-5 mb-md-0" alt="">
             </div>
+
+            <div class="col-md-6 content">
+                <span>about us</span>
+                <h3>True Healthcare For Your Family</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt sunt animi quia est? Fuga debitis officia iure saepe ut! Voluptates, nisi earum quis sint at inventore. Vel debitis magni suscipit.</p>
+                <a href="#contact" class="link-btn">make appointment</a>
+            </div>
+
         </div>
 
     </div>
 
 </section>
 
-<!-- home section ends -->
+<!-- about section ends -->
 
 <!-- footer section starts -->
 
@@ -107,6 +113,6 @@
 
 <!-- custom js file link -->
 <script src="js/script.js"></script>
-    
+
 </body>
 </html>

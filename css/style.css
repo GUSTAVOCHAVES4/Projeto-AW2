@@ -63,14 +63,14 @@ section{
 }
 
 .header{
-    padding: 2rem;
+    padding: 0.8rem;
     border-bottom: var(--border);
 }
 
-.header.active{
+.header.active {
     background-color: var(--white);
     box-shadow: var(--box-shadow);
-    border: 0;
+    border-bottom-color: var(--white);
 }
 
 .header .logo span{
@@ -96,7 +96,7 @@ section{
 }
 
 .home{
-    background: url(../images/floresta.jpg) no-repeat;
+    background: url() no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -239,19 +239,6 @@ section{
     margin-bottom: 0;
 }
 
-.reviews .box-container .box .stars{
-    padding: .5rem 1.5rem;
-    border-radius: .5rem;
-    background-color: var(--light-bg);
-    margin-bottom: 2rem;
-    display: inline-block;
-}
-
-.reviews .box-container .box .stars i{
-    font-size: 1.5rem;
-    color: var(--blue);
-}
-
 .reviews .box-container .box h3{
     font-size: 2rem;
     color: var(--black);
@@ -297,29 +284,55 @@ section{
     color: var(--black);
 }
 
+.footer{
+    background-color: var(--light-bg);
+}
 
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 3rem;
+}
 
+.footer .box-container .box{
+    text-align: center;
+}
 
+.footer .box-container .box i{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    line-height: 5rem;
+    font-size: 2rem;
+    background-color: var(--blue);
+    color: var(--white);
+}
 
+.footer .box-container .box h3{
+    font-size: 2rem;
+    margin: 2rem 0;
+    color: var(--black);
+}
 
+.footer .box-container .box p{
+    font-size: 1.5rem;
+    color: var(--light-color);
+    text-transform: none;
+}
 
+.footer .credit{
+    text-align: center;
+    border-top: var(--border);
+    padding-top: 2rem;
+    margin-top: 2rem;
+    font-size: 2rem;
+    color: var(--light-color);
+    padding-bottom: 2rem;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.footer .credit span{
+    color: var(--blue);
+}
 
 
 /* media queries */
@@ -397,13 +410,3 @@ section{
         font-size: 3rem;
     }
 }
-
-
-
-
-
-
-
-
-
-
