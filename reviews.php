@@ -33,6 +33,7 @@
             <a href="about.php">Sobre Nós</a>
             <a href="reviews.php">Avaliações</a>
             <a href="reservation.php">Reserva</a>
+            <a href="home.php">Visualizar Perfil</a>
         </nav>
 
         <div id="menu-btn" class="fas fa-bars"></div>

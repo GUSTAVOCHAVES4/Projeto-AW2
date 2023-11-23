@@ -29,6 +29,7 @@
                     <li><a href="about.php">Sobre Nós</a></li>
                     <li><a href="reviews.php">Avaliações</a></li>
                     <li><a href="reservation.php">Reserva</a></li>
+                    <li><a href="home.php">Visualizar Perfil</a></li>           
                 </ul>
                 <h4 class="description">Esse projeto é um restaurante fictício criado por Gustavo Chaves, chamado Chavitos. O restaurante é dedicado à comida saudável e ao bem-estar. A principal ideia do restaurante é a celebração de ingredientes frescos, como: verduras, legumes, peixes, vitaminas, sucos e chás revigorantes. Através desse website é possível ver o cardápio do restaurante, conhecer mais sobre, avaliar a experiência, ler outras avalições e fazer reservas para uma refeição no restaurante.</h4>
 </body>
